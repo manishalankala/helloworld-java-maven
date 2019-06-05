@@ -50,12 +50,12 @@
   
 <distributionManagement>
     <repository>
-        <id>tiger</id>
+        <id>deployment</id>
         <name>release softx</name>
         <url>http://35.237.64.4:8083/nexus/content/repositories/airrelease/</url>
     </repository>
     <snapshotRepository>
-        <id>tiger</id>
+        <id>deployment</id>
         <name>snapshot softx</name>
         <url>http://35.237.64.4:8083/nexus/content/repositories/airsnapshot/</url>
     </snapshotRepository>
