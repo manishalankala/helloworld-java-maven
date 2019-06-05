@@ -36,21 +36,19 @@
 			</executions>
 		</plugin>
 	</plugins>
-	</build>
-  
+	</build>	
 <distributionManagement>
     <repository>
-        <id>sym</id>
+        <id>tiger</id>
         <name>release softx</name>
-        <url>http://52.66.196.78:8081/repository/all/</url>
+        <url>http://35.237.64.4:8083/nexus/content/repositories/airrelease/</url>
     </repository>
     <snapshotRepository>
-        <id>sym</id>
+        <id>tiger</id>
         <name>snapshot softx</name>
-        <url>http://52.66.196.78:8081/repository/all/</url>
+        <url>http://35.237.64.4:8083/nexus/content/repositories/airsnapshot/</url>
     </snapshotRepository>
 </distributionManagement>
-
 
 
 
